@@ -1,0 +1,112 @@
+footer {
+  z-index: 0;
+  margin-top: 10vmax;
+  padding: 0vmax 2vmax;
+  /* background: url("../../../images/footer.jfif"); */
+  background: #181919;
+  opacity: 0.9;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footer::after {
+  content: "";
+  width: 100vw;
+  height: 100vmin;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  max-width: 100%;
+}
+
+.leftFooter {
+  width: 20%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.leftFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1vmax;
+}
+.leftFooter > p {
+  padding-top: 1.3vmax;
+  text-align: center;
+  font-size: 1.7vmax;
+    font-family: cursive;
+}
+
+.leftFooter > a > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+
+.midFooter {
+  width: 60%;
+
+  text-align: center;
+}
+
+.midFooter > img {
+  width: 15vmax;
+  height: 15vmax;
+}
+.midFooter > p {
+  max-width: 60%;
+  font-family: cursive;
+  margin: 1vmax auto;
+}
+
+.rightFooter {
+  width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  text-decoration: underline;
+}
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  transition: all 0.5s;
+  margin: 0.5vmax;
+}
+
+.rightFooter > a:hover {
+  color: #eb4034;
+}
+
+.rightFooter > .right > a > img {
+  border-radius: 1000px;
+  width: 3vmax;
+  margin: 0.5vmax;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+}
+
+.copyright {
+  background-color: #1d1b1d;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
